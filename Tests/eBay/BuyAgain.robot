@@ -4,9 +4,6 @@ Documentation  ebay Selenium Soluction
 Resource  ../../Resources/CommonFunctionality.robot
 Resource  ../../Resources/eBay_UserDefineKeywords.robot
 
-*** Variables ***
-
-
 *** Test Cases ***
 Verify basic search funcationality for eBay
 

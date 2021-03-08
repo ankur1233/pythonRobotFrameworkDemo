@@ -17,3 +17,4 @@ buy again
     Mouse Over  xpath = //*[@id="gh-eb-My"]/div/a[1]
     BuiltIn.Sleep  3s
     click Element   link = Buy Again
+    BuiltIn.Sleep  6s

@@ -1,10 +1,5 @@
-
 *** Setting ***
 Library           SeleniumLibrary
-
-
-*** Variables ***
-
 
 *** Test Cases ***
 Verify basic search funcationality for eBay
@@ -18,14 +13,13 @@ Verify basic search funcationality for eBay
 
 
 *** Keywords ***
-
 Start TestCase
         Open Browser    https://www.ebay.com   Chrome
         Maximize Browser Window
 
-Verify Saerch Results
+Verify Search Results
     Input Text  xpath = //*[@id="gh-ac"]  Mobile
-    Press Keys  xpath = //*[@id="gh-btn"] [Return]
+    Press Keys  xpath = //*[@id="gh-btn"]  [Return]
     Page Should Contain  results for Mobile
 
 Finsh TestCase

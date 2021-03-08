@@ -4,7 +4,7 @@ Library           SeleniumLibrary
 
 
 *** Variable ***
-${env} prod  #${url.${env}}
+#${env} prod  #${url.${env}}
 ${browser}  Chrome
 &{url}  qa=https://www.ebay.com  uat=https://www.ebay.com  prod=https://www.ebay.com
 

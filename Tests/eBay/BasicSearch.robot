@@ -1,10 +1,5 @@
-
 *** Setting ***
-Library           SeleniumLibrary
-
-
-*** Variables ***
-
+Library     SeleniumLibrary
 
 *** Test Cases ***
 Verify basic search funcationality for eBay
@@ -23,5 +18,3 @@ Verify basic search funcationality for eBay
 
 
     Close Browser
-
-*** Keywords ***
